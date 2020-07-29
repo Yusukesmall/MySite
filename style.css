@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+a {
+    text-decoration: none;
+    color:#FAFAFA;
+}
+header{
+	height:70px;
+	background-color: #EC715F;
+	width:100%;
+}
+.container{
+	width:1024px;
+	margin:0 auto;
+}
+.header-logo{
+	float:left;
+	height: 70px;
+}
+.nav{
+	float:right;
+}
+.header-nav{
+	float:left;
+	font-size:16px;
+	color:#FAFAFA;
+	line-height:70px;
+	padding: 0 30px;
+}
+.main-visual{
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	height:650px;
+	width:100%;
+}
+.main-text{
+	font-size: 64px;
+	color:#FAFAFA;
+	text-align: center;
+	margin-bottom:10px;
+	padding-top:200px;
+}
+.sub-text{
+	font-size: 20px;
+	color:#FAFAFA;
+	text-align: center;
+}
+.portfolio{
+	background-color: #ECEFF1;
+	width:100%;
+}
+.heading{
+	font-size: 32px;
+	color:#000000;
+	padding-top:90px;
+	text-align: center;
+}
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+.pf-text{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+	color:#000000;
+}
+.pf-box{
+	width:920px;
+	margin:0 auto;
+	padding-bottom: 90px;
+}
+.box1{
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+.box2{
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float:left;
+}
+.box3{
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	margin-bottom: 10px;
+	float:left;
+}
+.box4{
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	margin-right: 10px;
+	float:left;
+}
+.box5{
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	margin-right: 10px;
+	float:left;
+}
+.box6{
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:250px;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
